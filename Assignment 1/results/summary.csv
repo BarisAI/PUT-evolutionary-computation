@@ -1,0 +1,9 @@
+instance,method,runs,min,max,average
+TSPA,random,200,240208,286886,262921.230
+TSPA,nearest_end,200,84362,90075,87476.630
+TSPA,nearest_all_positions,200,72328,77022,74346.965
+TSPA,greedy_cycle,200,72590,75281,73793.405
+TSPB,random,200,185062,231127,208006.445
+TSPB,nearest_end,200,56007,63166,59397.335
+TSPB,nearest_all_positions,200,52915,66164,59475.495
+TSPB,greedy_cycle,200,55655,63734,59649.910

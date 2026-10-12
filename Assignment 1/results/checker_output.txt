@@ -1,0 +1,9 @@
+PASS TSPA random nodes=100 distance=137315 node_cost=102893 total=240208
+PASS TSPA nearest_end nodes=100 distance=31319 node_cost=53043 total=84362
+PASS TSPA nearest_all_positions nodes=100 distance=21816 node_cost=50512 total=72328
+PASS TSPA greedy_cycle nodes=100 distance=21570 node_cost=51020 total=72590
+PASS TSPB random nodes=100 distance=138109 node_cost=46953 total=185062
+PASS TSPB nearest_end nodes=100 distance=24632 node_cost=31375 total=56007
+PASS TSPB nearest_all_positions nodes=100 distance=20068 node_cost=32847 total=52915
+PASS TSPB greedy_cycle nodes=100 distance=19634 node_cost=36021 total=55655
+All 8 best solutions independently verified.
