@@ -52,5 +52,3 @@ The default weights are 0.5 and 0.5 and may be passed as last two parameters.
 - results/checker_output.txt — independent checker output.
 - results/instructor_checker_validation.csv — spreadsheet-rule validation.
 - results/plots/ — eight 2D SVG graphics showing node cost.
-
-No Assignment 1 files are modified.
