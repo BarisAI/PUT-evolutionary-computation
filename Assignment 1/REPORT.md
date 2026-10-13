@@ -1,5 +1,9 @@
 # Assignment 1 — Greedy heuristics
 
+**Students:**  
+Baris Surmelioglu - 152048  
+Ozan Polat - 150918
+
 **Course:** Evolutionary Computation, Poznań University of Technology  
 **Language:** C++17 (standard library only)  
 **Instances:** TSPA and TSPB, 200 nodes each  
@@ -304,16 +308,51 @@ The same lists are available in machine-readable
 
 ## 5. Solution checking and tests
 
-**All eight best solutions passed the included independent C++ checker.** It
-reads the original coordinates, recalculates rounded distances with a separate
-implementation, checks cardinality, uniqueness and index range, includes the
-closing edge, and compares the recalculated objective to the claimed value.
-It does not reuse the heuristics or their evaluation function.
+### 5.1 Verification with the instructor-provided Excel solution checker
 
-**Instructor checker status:** no instructor-provided checker executable,
-website or URL was included in the supplied materials. Consequently, these
-solutions have not been submitted to an external/instructor checker; only the
-included independent checker validation is claimed.
+The instructor's **`Solution checker.xlsx`** contains a separate `TSPA` and
+`TSPB` worksheet. Both sheets' node coordinates and costs were compared
+against the supplied CSV data; all 200 rows per instance matched exactly.
+For each of our eight best tours, the 100 zero-based node indices were placed
+in cells `F3:F102` of the corresponding worksheet. Cell `F103=F3` closes the
+tour, `I2` sums selected-node costs, `J2` sums mathematically rounded
+Euclidean edge lengths, and `K2=I2+J2` is the objective.
+
+The spreadsheet calculations were performed programmatically using the
+formulas from the supplied workbook. During import, Excel's shared-formula
+groups required expanding the existing `LOOKUP` and
+`INT(SQRT(…)+0.5)` formulas in memory before recalculation. This
+normalization preserves the spreadsheet's calculation rules and does **not**
+change the instructor's original Excel file. This was a programmatic
+evaluation of the instructor-provided checker, not manual execution in the
+Microsoft Excel application.
+
+| Instance | Method | Travel distance (J2) | Node costs (I2) | Objective (K2) | Check |
+| --- | --- | ---: | ---: | ---: | :---: |
+| TSPA | Random solution | 137,315 | 102,893 | 240,208 | PASS |
+| TSPA | Nearest neighbor — end | 31,319 | 53,043 | 84,362 | PASS |
+| TSPA | Nearest neighbor — all positions | 21,816 | 50,512 | 72,328 | PASS |
+| TSPA | Greedy cycle | 21,570 | 51,020 | 72,590 | PASS |
+| TSPB | Random solution | 138,109 | 46,953 | 185,062 | PASS |
+| TSPB | Nearest neighbor — end | 24,632 | 31,375 | 56,007 | PASS |
+| TSPB | Nearest neighbor — all positions | 20,068 | 32,847 | 52,915 | PASS |
+| TSPB | Greedy cycle | 19,634 | 36,021 | 55,655 | PASS |
+
+**All eight best tours match the instructor's spreadsheet calculation rules.**
+The machine-readable record is
+[instructor_checker_validation.csv](results/instructor_checker_validation.csv).
+
+The original Excel template calculates an objective but does not guarantee that
+the selected indices are distinct. Therefore, we separately checked that each
+tour contains **exactly 100 unique valid indices**.
+
+### 5.2 Independent C++ checker
+
+All eight best solutions also passed the included independent C++ checker.
+It reads the original coordinates, recalculates rounded distances with a
+separate implementation, checks cardinality, uniqueness and index range,
+includes the closing edge, and compares the recalculated objective to the
+claimed value. It does not reuse the heuristics or their evaluation function.
 
 Recorded output ([checker_output.txt](results/checker_output.txt)):
 
