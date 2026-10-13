@@ -1,0 +1,307 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="780" viewBox="0 0 860 780">
+<rect width="860" height="780" fill="white"/>
+<g font-family="sans-serif" fill="#182335"><text x="60" y="35" font-size="20">TSPA - nn_weighted_2regret</text><text x="60" y="63" font-size="15">Objective: 72419 | selected: 100/200</text></g>
+<path d="M 80 95 V 680 H 675" fill="none" stroke="#9ca3af"/>
+<polyline fill="none" stroke="#334155" stroke-width="1.6" points="210.75,657.08 220.01,654.73 246.74,632.55 228.67,613.60 221.18,590.53 258.35,594.35 292.14,597.58 341.50,592.88 368.09,605.81 371.76,624.17 356.19,680.00 393.06,663.11 441.84,673.24 458.29,651.94 425.53,625.64 429.20,603.61 458.73,605.37 487.53,591.85 497.81,587.01 500.02,559.39 529.40,595.38 546.29,592.59 570.39,600.37 558.34,613.45 552.17,614.77 528.22,618.44 500.16,642.39 518.82,664.13 551.87,674.42 592.86,675.45 609.90,638.72 631.06,668.10 651.63,676.18 648.54,667.22 645.16,662.22 647.22,647.09 650.74,623.88 649.72,621.97 648.10,607.87 620.48,598.91 632.23,536.32 576.11,550.72 581.40,518.25 572.44,515.17 580.67,499.01 579.20,490.34 586.69,475.94 569.21,433.93 607.99,429.81 631.65,407.19 590.36,397.64 551.14,395.73 508.98,405.87 486.79,428.93 516.91,480.20 515.15,511.49 488.56,526.63 453.30,516.49 453.30,521.93 427.15,514.14 429.35,556.89 412.02,550.28 398.65,551.75 382.19,535.59 382.63,553.22 375.88,564.53 372.94,576.72 361.33,548.66 347.96,544.55 325.34,506.65 321.52,503.12 310.94,540.14 321.37,562.91 303.30,569.82 286.26,565.12 268.34,555.71 231.61,501.21 241.60,489.60 259.67,471.09 248.65,440.83 246.60,427.17 206.93,433.34 168.00,445.24 189.89,507.09 185.78,526.19 187.39,531.18 180.05,539.26 158.60,501.50 141.41,492.98 128.04,522.81 110.85,490.19 80.88,511.49 91.61,514.73 96.45,522.37 85.44,549.25 135.97,601.11 135.09,609.78 122.60,647.97 87.93,669.42 87.79,677.80 210.75,657.08"/>
+<circle cx="510.89" cy="609.04" r="3" fill="rgb(200,65,75)" opacity="0.45" stroke="none"><title>Node 0; cost 1607; not selected</title></circle>
+<circle cx="338.86" cy="418.06" r="3" fill="rgb(158,82,112)" opacity="0.45" stroke="none"><title>Node 5; cost 1188; not selected</title></circle>
+<circle cx="642.08" cy="467.27" r="3" fill="rgb(200,65,75)" opacity="0.45" stroke="none"><title>Node 6; cost 1598; not selected</title></circle>
+<circle cx="106.88" cy="398.52" r="3" fill="rgb(180,73,93)" opacity="0.45" stroke="none"><title>Node 7; cost 1402; not selected</title></circle>
+<circle cx="272.75" cy="651.94" r="3" fill="rgb(158,82,113)" opacity="0.45" stroke="none"><title>Node 10; cost 1181; not selected</title></circle>
+<circle cx="112.17" cy="523.39" r="3" fill="rgb(146,87,124)" opacity="0.45" stroke="none"><title>Node 11; cost 1059; not selected</title></circle>
+<circle cx="182.25" cy="553.51" r="3" fill="rgb(216,59,60)" opacity="0.45" stroke="none"><title>Node 12; cost 1765; not selected</title></circle>
+<circle cx="472.40" cy="614.63" r="3" fill="rgb(207,63,69)" opacity="0.45" stroke="none"><title>Node 13; cost 1670; not selected</title></circle>
+<circle cx="192.39" cy="489.46" r="3" fill="rgb(215,59,61)" opacity="0.45" stroke="none"><title>Node 14; cost 1756; not selected</title></circle>
+<circle cx="437.14" cy="460.08" r="3" fill="rgb(190,69,84)" opacity="0.45" stroke="none"><title>Node 15; cost 1505; not selected</title></circle>
+<circle cx="609.17" cy="407.63" r="3" fill="rgb(162,80,109)" opacity="0.45" stroke="none"><title>Node 17; cost 1224; not selected</title></circle>
+<circle cx="299.34" cy="459.19" r="3" fill="rgb(205,63,71)" opacity="0.45" stroke="none"><title>Node 18; cost 1650; not selected</title></circle>
+<circle cx="573.32" cy="398.81" r="3" fill="rgb(182,73,92)" opacity="0.45" stroke="none"><title>Node 19; cost 1420; not selected</title></circle>
+<circle cx="446.83" cy="651.50" r="3" fill="rgb(179,74,94)" opacity="0.45" stroke="none"><title>Node 20; cost 1389; not selected</title></circle>
+<circle cx="655.15" cy="464.04" r="3" fill="rgb(173,76,99)" opacity="0.45" stroke="none"><title>Node 21; cost 1337; not selected</title></circle>
+<circle cx="311.09" cy="672.95" r="3" fill="rgb(196,67,79)" opacity="0.45" stroke="none"><title>Node 22; cost 1560; not selected</title></circle>
+<circle cx="228.09" cy="571.14" r="3" fill="rgb(221,57,56)" opacity="0.45" stroke="none"><title>Node 23; cost 1815; not selected</title></circle>
+<circle cx="537.48" cy="409.10" r="3" fill="rgb(171,77,101)" opacity="0.45" stroke="none"><title>Node 24; cost 1312; not selected</title></circle>
+<circle cx="330.04" cy="672.21" r="3" fill="rgb(145,87,125)" opacity="0.45" stroke="none"><title>Node 25; cost 1051; not selected</title></circle>
+<circle cx="660.00" cy="658.26" r="3" fill="rgb(172,77,101)" opacity="0.45" stroke="none"><title>Node 26; cost 1320; not selected</title></circle>
+<circle cx="290.96" cy="623.00" r="3" fill="rgb(180,73,93)" opacity="0.45" stroke="none"><title>Node 27; cost 1405; not selected</title></circle>
+<circle cx="92.49" cy="406.01" r="3" fill="rgb(103,104,162)" opacity="0.45" stroke="none"><title>Node 31; cost 634; not selected</title></circle>
+<circle cx="207.96" cy="659.73" r="3" fill="rgb(202,64,73)" opacity="0.45" stroke="none"><title>Node 32; cost 1627; not selected</title></circle>
+<circle cx="459.61" cy="443.92" r="3" fill="rgb(192,68,82)" opacity="0.45" stroke="none"><title>Node 34; cost 1527; not selected</title></circle>
+<circle cx="653.10" cy="529.42" r="3" fill="rgb(145,87,125)" opacity="0.45" stroke="none"><title>Node 37; cost 1051; not selected</title></circle>
+<circle cx="201.20" cy="463.01" r="3" fill="rgb(136,91,133)" opacity="0.45" stroke="none"><title>Node 38; cost 961; not selected</title></circle>
+<circle cx="413.78" cy="391.76" r="3" fill="rgb(130,93,138)" opacity="0.45" stroke="none"><title>Node 39; cost 903; not selected</title></circle>
+<circle cx="224.71" cy="614.63" r="3" fill="rgb(221,57,56)" opacity="0.45" stroke="none"><title>Node 40; cost 1813; not selected</title></circle>
+<circle cx="388.51" cy="590.09" r="3" fill="rgb(145,87,124)" opacity="0.45" stroke="none"><title>Node 41; cost 1056; not selected</title></circle>
+<circle cx="557.31" cy="587.01" r="3" fill="rgb(149,86,121)" opacity="0.45" stroke="none"><title>Node 43; cost 1098; not selected</title></circle>
+<circle cx="202.38" cy="503.56" r="3" fill="rgb(206,63,70)" opacity="0.45" stroke="none"><title>Node 44; cost 1659; not selected</title></circle>
+<circle cx="619.75" cy="451.56" r="3" fill="rgb(186,71,87)" opacity="0.45" stroke="none"><title>Node 46; cost 1465; not selected</title></circle>
+<circle cx="115.11" cy="399.55" r="3" fill="rgb(61,121,200)" opacity="0.45" stroke="none"><title>Node 48; cost 219; not selected</title></circle>
+<circle cx="528.07" cy="442.15" r="3" fill="rgb(216,59,61)" opacity="0.45" stroke="none"><title>Node 56; cost 1762; not selected</title></circle>
+<circle cx="375.29" cy="606.10" r="3" fill="rgb(162,80,109)" opacity="0.45" stroke="none"><title>Node 61; cost 1224; not selected</title></circle>
+<circle cx="425.24" cy="461.10" r="3" fill="rgb(132,92,136)" opacity="0.45" stroke="none"><title>Node 62; cost 927; not selected</title></circle>
+<circle cx="476.51" cy="621.97" r="3" fill="rgb(168,78,104)" opacity="0.45" stroke="none"><title>Node 65; cost 1286; not selected</title></circle>
+<circle cx="156.39" cy="473.30" r="3" fill="rgb(195,67,79)" opacity="0.45" stroke="none"><title>Node 66; cost 1554; not selected</title></circle>
+<circle cx="211.48" cy="515.61" r="3" fill="rgb(236,51,42)" opacity="0.45" stroke="none"><title>Node 68; cost 1965; not selected</title></circle>
+<circle cx="306.98" cy="625.50" r="3" fill="rgb(200,65,75)" opacity="0.45" stroke="none"><title>Node 70; cost 1602; not selected</title></circle>
+<circle cx="392.04" cy="519.28" r="3" fill="rgb(237,50,41)" opacity="0.45" stroke="none"><title>Node 74; cost 1975; not selected</title></circle>
+<circle cx="80.00" cy="416.59" r="3" fill="rgb(179,74,94)" opacity="0.45" stroke="none"><title>Node 77; cost 1394; not selected</title></circle>
+<circle cx="590.07" cy="397.79" r="3" fill="rgb(234,52,44)" opacity="0.45" stroke="none"><title>Node 79; cost 1943; not selected</title></circle>
+<circle cx="543.35" cy="551.01" r="3" fill="rgb(157,83,114)" opacity="0.45" stroke="none"><title>Node 81; cost 1172; not selected</title></circle>
+<circle cx="110.12" cy="487.70" r="3" fill="rgb(168,78,103)" opacity="0.45" stroke="none"><title>Node 82; cost 1287; not selected</title></circle>
+<circle cx="535.42" cy="522.07" r="3" fill="rgb(123,96,144)" opacity="0.45" stroke="none"><title>Node 85; cost 838; not selected</title></circle>
+<circle cx="619.89" cy="427.61" r="3" fill="rgb(223,56,54)" opacity="0.45" stroke="none"><title>Node 86; cost 1833; not selected</title></circle>
+<circle cx="202.82" cy="523.83" r="3" fill="rgb(135,91,133)" opacity="0.45" stroke="none"><title>Node 90; cost 958; not selected</title></circle>
+<circle cx="186.95" cy="654.58" r="3" fill="rgb(151,85,119)" opacity="0.45" stroke="none"><title>Node 92; cost 1116; not selected</title></circle>
+<circle cx="121.72" cy="651.50" r="3" fill="rgb(197,67,78)" opacity="0.45" stroke="none"><title>Node 94; cost 1568; not selected</title></circle>
+<circle cx="129.07" cy="602.87" r="3" fill="rgb(148,86,122)" opacity="0.45" stroke="none"><title>Node 95; cost 1085; not selected</title></circle>
+<circle cx="288.61" cy="625.20" r="3" fill="rgb(189,70,85)" opacity="0.45" stroke="none"><title>Node 96; cost 1490; not selected</title></circle>
+<circle cx="313.15" cy="637.10" r="3" fill="rgb(128,94,140)" opacity="0.45" stroke="none"><title>Node 98; cost 887; not selected</title></circle>
+<circle cx="422.01" cy="568.35" r="3" fill="rgb(148,86,121)" opacity="0.45" stroke="none"><title>Node 99; cost 1088; not selected</title></circle>
+<circle cx="572.15" cy="617.42" r="3" fill="rgb(174,76,99)" opacity="0.45" stroke="none"><title>Node 103; cost 1341; not selected</title></circle>
+<circle cx="534.83" cy="660.75" r="3" fill="rgb(230,53,48)" opacity="0.45" stroke="none"><title>Node 105; cost 1905; not selected</title></circle>
+<circle cx="482.24" cy="451.11" r="3" fill="rgb(225,55,53)" opacity="0.45" stroke="none"><title>Node 109; cost 1851; not selected</title></circle>
+<circle cx="132.45" cy="660.46" r="3" fill="rgb(194,68,81)" opacity="0.45" stroke="none"><title>Node 110; cost 1538; not selected</title></circle>
+<circle cx="488.12" cy="673.10" r="3" fill="rgb(143,88,127)" opacity="0.45" stroke="none"><title>Node 111; cost 1031; not selected</title></circle>
+<circle cx="335.04" cy="437.89" r="3" fill="rgb(118,98,149)" opacity="0.45" stroke="none"><title>Node 112; cost 782; not selected</title></circle>
+<circle cx="334.59" cy="401.61" r="3" fill="rgb(115,99,152)" opacity="0.45" stroke="none"><title>Node 115; cost 750; not selected</title></circle>
+<circle cx="591.39" cy="582.89" r="3" fill="rgb(204,64,72)" opacity="0.45" stroke="none"><title>Node 117; cost 1638; not selected</title></circle>
+<circle cx="383.07" cy="676.03" r="3" fill="rgb(240,50,40)" opacity="0.45" stroke="none"><title>Node 118; cost 1997; not selected</title></circle>
+<circle cx="96.89" cy="537.06" r="3" fill="rgb(159,82,112)" opacity="0.45" stroke="none"><title>Node 119; cost 1192; not selected</title></circle>
+<circle cx="155.07" cy="626.08" r="3" fill="rgb(197,66,77)" opacity="0.45" stroke="none"><title>Node 120; cost 1577; not selected</title></circle>
+<circle cx="360.16" cy="623.59" r="3" fill="rgb(193,68,82)" opacity="0.45" stroke="none"><title>Node 121; cost 1531; not selected</title></circle>
+<circle cx="628.56" cy="665.31" r="3" fill="rgb(210,61,66)" opacity="0.45" stroke="none"><title>Node 122; cost 1703; not selected</title></circle>
+<circle cx="567.74" cy="641.80" r="3" fill="rgb(207,62,68)" opacity="0.45" stroke="none"><title>Node 124; cost 1676; not selected</title></circle>
+<circle cx="189.30" cy="612.42" r="3" fill="rgb(239,50,40)" opacity="0.45" stroke="none"><title>Node 125; cost 1988; not selected</title></circle>
+<circle cx="144.93" cy="401.31" r="3" fill="rgb(235,51,43)" opacity="0.45" stroke="none"><title>Node 126; cost 1953; not selected</title></circle>
+<circle cx="549.23" cy="512.08" r="3" fill="rgb(215,59,61)" opacity="0.45" stroke="none"><title>Node 128; cost 1754; not selected</title></circle>
+<circle cx="326.96" cy="483.58" r="3" fill="rgb(182,73,91)" opacity="0.45" stroke="none"><title>Node 133; cost 1422; not selected</title></circle>
+<circle cx="172.99" cy="421.29" r="3" fill="rgb(218,58,59)" opacity="0.45" stroke="none"><title>Node 137; cost 1785; not selected</title></circle>
+<circle cx="331.22" cy="452.14" r="3" fill="rgb(125,95,142)" opacity="0.45" stroke="none"><title>Node 139; cost 857; not selected</title></circle>
+<circle cx="412.02" cy="491.96" r="3" fill="rgb(132,93,136)" opacity="0.45" stroke="none"><title>Node 143; cost 921; not selected</title></circle>
+<circle cx="253.65" cy="587.45" r="3" fill="rgb(188,70,86)" opacity="0.45" stroke="none"><title>Node 145; cost 1486; not selected</title></circle>
+<circle cx="656.62" cy="490.49" r="3" fill="rgb(93,108,171)" opacity="0.45" stroke="none"><title>Node 147; cost 536; not selected</title></circle>
+<circle cx="199.73" cy="536.47" r="3" fill="rgb(176,75,97)" opacity="0.45" stroke="none"><title>Node 148; cost 1363; not selected</title></circle>
+<circle cx="432.14" cy="404.10" r="3" fill="rgb(145,87,125)" opacity="0.45" stroke="none"><title>Node 154; cost 1051; not selected</title></circle>
+<circle cx="623.86" cy="458.75" r="3" fill="rgb(214,60,62)" opacity="0.45" stroke="none"><title>Node 155; cost 1747; not selected</title></circle>
+<circle cx="302.57" cy="540.44" r="3" fill="rgb(138,90,131)" opacity="0.45" stroke="none"><title>Node 156; cost 985; not selected</title></circle>
+<circle cx="189.74" cy="609.04" r="3" fill="rgb(131,93,137)" opacity="0.45" stroke="none"><title>Node 161; cost 914; not selected</title></circle>
+<circle cx="223.09" cy="531.91" r="3" fill="rgb(165,79,107)" opacity="0.45" stroke="none"><title>Node 162; cost 1250; not selected</title></circle>
+<circle cx="515.59" cy="641.51" r="3" fill="rgb(228,54,49)" opacity="0.45" stroke="none"><title>Node 165; cost 1887; not selected</title></circle>
+<circle cx="242.34" cy="650.91" r="3" fill="rgb(218,58,59)" opacity="0.45" stroke="none"><title>Node 166; cost 1785; not selected</title></circle>
+<circle cx="114.52" cy="505.62" r="3" fill="rgb(234,52,45)" opacity="0.45" stroke="none"><title>Node 167; cost 1939; not selected</title></circle>
+<circle cx="301.98" cy="533.24" r="3" fill="rgb(213,60,63)" opacity="0.45" stroke="none"><title>Node 172; cost 1737; not selected</title></circle>
+<circle cx="309.18" cy="490.93" r="3" fill="rgb(221,57,57)" opacity="0.45" stroke="none"><title>Node 173; cost 1808; not selected</title></circle>
+<circle cx="361.77" cy="395.58" r="3" fill="rgb(156,83,115)" opacity="0.45" stroke="none"><title>Node 175; cost 1160; not selected</title></circle>
+<circle cx="254.53" cy="660.31" r="3" fill="rgb(207,62,68)" opacity="0.45" stroke="none"><title>Node 183; cost 1677; not selected</title></circle>
+<circle cx="535.57" cy="437.45" r="3" fill="rgb(134,92,135)" opacity="0.45" stroke="none"><title>Node 184; cost 941; not selected</title></circle>
+<circle cx="99.98" cy="624.03" r="3" fill="rgb(221,57,56)" opacity="0.45" stroke="none"><title>Node 188; cost 1811; not selected</title></circle>
+<circle cx="358.83" cy="490.93" r="3" fill="rgb(209,62,67)" opacity="0.45" stroke="none"><title>Node 190; cost 1689; not selected</title></circle>
+<circle cx="259.38" cy="566.14" r="3" fill="rgb(229,54,49)" opacity="0.45" stroke="none"><title>Node 191; cost 1896; not selected</title></circle>
+<circle cx="487.82" cy="526.33" r="3" fill="rgb(156,83,114)" opacity="0.45" stroke="none"><title>Node 194; cost 1168; not selected</title></circle>
+<circle cx="521.02" cy="426.58" r="3" fill="rgb(237,50,42)" opacity="0.45" stroke="none"><title>Node 195; cost 1973; not selected</title></circle>
+<circle cx="301.54" cy="488.87" r="3" fill="rgb(174,76,98)" opacity="0.45" stroke="none"><title>Node 196; cost 1347; not selected</title></circle>
+<circle cx="529.10" cy="390.44" r="3" fill="rgb(227,55,51)" opacity="0.45" stroke="none"><title>Node 197; cost 1868; not selected</title></circle>
+<circle cx="217.36" cy="639.01" r="3" fill="rgb(237,50,41)" opacity="0.45" stroke="none"><title>Node 198; cost 1976; not selected</title></circle>
+<circle cx="93.81" cy="399.55" r="3" fill="rgb(201,65,75)" opacity="0.45" stroke="none"><title>Node 199; cost 1608; not selected</title></circle>
+<circle cx="579.20" cy="490.34" r="4.5" fill="rgb(62,120,199)" opacity="1" stroke="#0f172a"><title>Node 1; cost 225; selected</title></circle>
+<circle cx="220.01" cy="654.73" r="4.5" fill="rgb(78,114,185)" opacity="1" stroke="#0f172a"><title>Node 2; cost 387; selected</title></circle>
+<circle cx="572.44" cy="515.17" r="4.5" fill="rgb(72,116,190)" opacity="1" stroke="#0f172a"><title>Node 3; cost 327; selected</title></circle>
+<circle cx="259.67" cy="471.09" r="4.5" fill="rgb(126,95,142)" opacity="1" stroke="#0f172a"><title>Node 4; cost 864; selected</title></circle>
+<circle cx="488.56" cy="526.63" r="4.5" fill="rgb(127,95,141)" opacity="1" stroke="#0f172a"><title>Node 8; cost 873; selected</title></circle>
+<circle cx="453.30" cy="516.49" r="4.5" fill="rgb(78,114,185)" opacity="1" stroke="#0f172a"><title>Node 9; cost 383; selected</title></circle>
+<circle cx="325.34" cy="506.65" r="4.5" fill="rgb(81,113,182)" opacity="1" stroke="#0f172a"><title>Node 16; cost 416; selected</title></circle>
+<circle cx="286.26" cy="565.12" r="4.5" fill="rgb(114,100,153)" opacity="1" stroke="#0f172a"><title>Node 28; cost 741; selected</title></circle>
+<circle cx="590.36" cy="397.64" r="4.5" fill="rgb(89,110,175)" opacity="1" stroke="#0f172a"><title>Node 29; cost 494; selected</title></circle>
+<circle cx="221.18" cy="590.53" r="4.5" fill="rgb(74,116,188)" opacity="1" stroke="#0f172a"><title>Node 30; cost 347; selected</title></circle>
+<circle cx="427.15" cy="514.14" r="4.5" fill="rgb(64,120,197)" opacity="1" stroke="#0f172a"><title>Node 33; cost 248; selected</title></circle>
+<circle cx="310.94" cy="540.14" r="4.5" fill="rgb(78,114,185)" opacity="1" stroke="#0f172a"><title>Node 35; cost 382; selected</title></circle>
+<circle cx="412.02" cy="550.28" r="4.5" fill="rgb(49,126,211)" opacity="1" stroke="#0f172a"><title>Node 36; cost 98; selected</title></circle>
+<circle cx="552.17" cy="614.77" r="4.5" fill="rgb(127,95,141)" opacity="1" stroke="#0f172a"><title>Node 42; cost 870; selected</title></circle>
+<circle cx="341.50" cy="592.88" r="4.5" fill="rgb(89,110,175)" opacity="1" stroke="#0f172a"><title>Node 45; cost 491; selected</title></circle>
+<circle cx="632.23" cy="536.32" r="4.5" fill="rgb(69,118,193)" opacity="1" stroke="#0f172a"><title>Node 47; cost 291; selected</title></circle>
+<circle cx="128.04" cy="522.81" r="4.5" fill="rgb(97,107,168)" opacity="1" stroke="#0f172a"><title>Node 49; cost 573; selected</title></circle>
+<circle cx="581.40" cy="518.25" r="4.5" fill="rgb(58,122,203)" opacity="1" stroke="#0f172a"><title>Node 50; cost 186; selected</title></circle>
+<circle cx="321.52" cy="503.12" r="4.5" fill="rgb(59,122,202)" opacity="1" stroke="#0f172a"><title>Node 51; cost 196; selected</title></circle>
+<circle cx="382.19" cy="535.59" r="4.5" fill="rgb(97,107,168)" opacity="1" stroke="#0f172a"><title>Node 52; cost 570; selected</title></circle>
+<circle cx="375.88" cy="564.53" r="4.5" fill="rgb(80,113,183)" opacity="1" stroke="#0f172a"><title>Node 53; cost 403; selected</title></circle>
+<circle cx="453.30" cy="521.93" r="4.5" fill="rgb(98,106,167)" opacity="1" stroke="#0f172a"><title>Node 54; cost 583; selected</title></circle>
+<circle cx="631.65" cy="407.19" r="4.5" fill="rgb(128,94,140)" opacity="1" stroke="#0f172a"><title>Node 55; cost 887; selected</title></circle>
+<circle cx="551.87" cy="674.42" r="4.5" fill="rgb(52,124,208)" opacity="1" stroke="#0f172a"><title>Node 57; cost 126; selected</title></circle>
+<circle cx="425.53" cy="625.64" r="4.5" fill="rgb(62,121,199)" opacity="1" stroke="#0f172a"><title>Node 58; cost 223; selected</title></circle>
+<circle cx="586.69" cy="475.94" r="4.5" fill="rgb(155,83,116)" opacity="1" stroke="#0f172a"><title>Node 59; cost 1152; selected</title></circle>
+<circle cx="110.85" cy="490.19" r="4.5" fill="rgb(93,108,171)" opacity="1" stroke="#0f172a"><title>Node 60; cost 533; selected</title></circle>
+<circle cx="96.45" cy="522.37" r="4.5" fill="rgb(42,128,217)" opacity="1" stroke="#0f172a"><title>Node 63; cost 27; selected</title></circle>
+<circle cx="592.86" cy="675.45" r="4.5" fill="rgb(126,95,142)" opacity="1" stroke="#0f172a"><title>Node 64; cost 859; selected</title></circle>
+<circle cx="347.96" cy="544.55" r="4.5" fill="rgb(42,128,217)" opacity="1" stroke="#0f172a"><title>Node 67; cost 29; selected</title></circle>
+<circle cx="122.60" cy="647.97" r="4.5" fill="rgb(112,100,154)" opacity="1" stroke="#0f172a"><title>Node 69; cost 724; selected</title></circle>
+<circle cx="248.65" cy="440.83" r="4.5" fill="rgb(114,100,153)" opacity="1" stroke="#0f172a"><title>Node 71; cost 739; selected</title></circle>
+<circle cx="487.53" cy="591.85" r="4.5" fill="rgb(141,89,128)" opacity="1" stroke="#0f172a"><title>Node 72; cost 1018; selected</title></circle>
+<circle cx="368.09" cy="605.81" r="4.5" fill="rgb(118,98,149)" opacity="1" stroke="#0f172a"><title>Node 73; cost 781; selected</title></circle>
+<circle cx="647.22" cy="647.09" r="4.5" fill="rgb(156,83,115)" opacity="1" stroke="#0f172a"><title>Node 75; cost 1160; selected</title></circle>
+<circle cx="241.60" cy="489.60" r="4.5" fill="rgb(82,112,181)" opacity="1" stroke="#0f172a"><title>Node 76; cost 426; selected</title></circle>
+<circle cx="651.63" cy="676.18" r="4.5" fill="rgb(106,103,159)" opacity="1" stroke="#0f172a"><title>Node 78; cost 667; selected</title></circle>
+<circle cx="168.00" cy="445.24" r="4.5" fill="rgb(42,129,218)" opacity="1" stroke="#0f172a"><title>Node 80; cost 21; selected</title></circle>
+<circle cx="187.39" cy="531.18" r="4.5" fill="rgb(139,90,130)" opacity="1" stroke="#0f172a"><title>Node 83; cost 997; selected</title></circle>
+<circle cx="429.20" cy="603.61" r="4.5" fill="rgb(87,110,177)" opacity="1" stroke="#0f172a"><title>Node 84; cost 477; selected</title></circle>
+<circle cx="292.14" cy="597.58" r="4.5" fill="rgb(80,113,183)" opacity="1" stroke="#0f172a"><title>Node 87; cost 407; selected</title></circle>
+<circle cx="631.06" cy="668.10" r="4.5" fill="rgb(116,99,151)" opacity="1" stroke="#0f172a"><title>Node 88; cost 765; selected</title></circle>
+<circle cx="558.34" cy="613.45" r="4.5" fill="rgb(64,120,198)" opacity="1" stroke="#0f172a"><title>Node 89; cost 240; selected</title></circle>
+<circle cx="206.93" cy="433.34" r="4.5" fill="rgb(98,106,167)" opacity="1" stroke="#0f172a"><title>Node 91; cost 582; selected</title></circle>
+<circle cx="576.11" cy="550.72" r="4.5" fill="rgb(53,124,207)" opacity="1" stroke="#0f172a"><title>Node 93; cost 138; selected</title></circle>
+<circle cx="135.97" cy="601.11" r="4.5" fill="rgb(59,122,202)" opacity="1" stroke="#0f172a"><title>Node 97; cost 196; selected</title></circle>
+<circle cx="189.89" cy="507.09" r="4.5" fill="rgb(135,91,134)" opacity="1" stroke="#0f172a"><title>Node 100; cost 949; selected</title></circle>
+<circle cx="607.99" cy="429.81" r="4.5" fill="rgb(124,96,143)" opacity="1" stroke="#0f172a"><title>Node 101; cost 844; selected</title></circle>
+<circle cx="303.30" cy="569.82" r="4.5" fill="rgb(140,89,129)" opacity="1" stroke="#0f172a"><title>Node 102; cost 1003; selected</title></circle>
+<circle cx="87.79" cy="677.80" r="4.5" fill="rgb(112,101,155)" opacity="1" stroke="#0f172a"><title>Node 104; cost 721; selected</title></circle>
+<circle cx="546.29" cy="592.59" r="4.5" fill="rgb(54,124,207)" opacity="1" stroke="#0f172a"><title>Node 106; cost 144; selected</title></circle>
+<circle cx="609.90" cy="638.72" r="4.5" fill="rgb(40,129,219)" opacity="1" stroke="#0f172a"><title>Node 107; cost 4; selected</title></circle>
+<circle cx="141.41" cy="492.98" r="4.5" fill="rgb(107,102,158)" opacity="1" stroke="#0f172a"><title>Node 108; cost 678; selected</title></circle>
+<circle cx="570.39" cy="600.37" r="4.5" fill="rgb(131,93,137)" opacity="1" stroke="#0f172a"><title>Node 113; cost 916; selected</title></circle>
+<circle cx="356.19" cy="680.00" r="4.5" fill="rgb(90,109,174)" opacity="1" stroke="#0f172a"><title>Node 114; cost 500; selected</title></circle>
+<circle cx="80.88" cy="511.49" r="4.5" fill="rgb(93,108,171)" opacity="1" stroke="#0f172a"><title>Node 116; cost 539; selected</title></circle>
+<circle cx="185.78" cy="526.19" r="4.5" fill="rgb(62,120,199)" opacity="1" stroke="#0f172a"><title>Node 123; cost 226; selected</title></circle>
+<circle cx="135.09" cy="609.78" r="4.5" fill="rgb(99,106,166)" opacity="1" stroke="#0f172a"><title>Node 127; cost 592; selected</title></circle>
+<circle cx="87.93" cy="669.42" r="4.5" fill="rgb(115,99,151)" opacity="1" stroke="#0f172a"><title>Node 129; cost 758; selected</title></circle>
+<circle cx="620.48" cy="598.91" r="4.5" fill="rgb(78,114,185)" opacity="1" stroke="#0f172a"><title>Node 130; cost 386; selected</title></circle>
+<circle cx="429.35" cy="556.89" r="4.5" fill="rgb(103,104,162)" opacity="1" stroke="#0f172a"><title>Node 131; cost 636; selected</title></circle>
+<circle cx="231.61" cy="501.21" r="4.5" fill="rgb(47,127,213)" opacity="1" stroke="#0f172a"><title>Node 132; cost 71; selected</title></circle>
+<circle cx="458.73" cy="605.37" r="4.5" fill="rgb(63,120,198)" opacity="1" stroke="#0f172a"><title>Node 134; cost 236; selected</title></circle>
+<circle cx="371.76" cy="624.17" r="4.5" fill="rgb(51,125,210)" opacity="1" stroke="#0f172a"><title>Node 135; cost 110; selected</title></circle>
+<circle cx="508.98" cy="405.87" r="4.5" fill="rgb(89,110,175)" opacity="1" stroke="#0f172a"><title>Node 136; cost 497; selected</title></circle>
+<circle cx="500.16" cy="642.39" r="4.5" fill="rgb(138,90,131)" opacity="1" stroke="#0f172a"><title>Node 138; cost 985; selected</title></circle>
+<circle cx="372.94" cy="576.72" r="4.5" fill="rgb(99,106,166)" opacity="1" stroke="#0f172a"><title>Node 140; cost 598; selected</title></circle>
+<circle cx="258.35" cy="594.35" r="4.5" fill="rgb(46,127,214)" opacity="1" stroke="#0f172a"><title>Node 141; cost 61; selected</title></circle>
+<circle cx="515.15" cy="511.49" r="4.5" fill="rgb(143,88,127)" opacity="1" stroke="#0f172a"><title>Node 142; cost 1029; selected</title></circle>
+<circle cx="361.33" cy="548.66" r="4.5" fill="rgb(73,116,189)" opacity="1" stroke="#0f172a"><title>Node 144; cost 335; selected</title></circle>
+<circle cx="649.72" cy="621.97" r="4.5" fill="rgb(129,94,139)" opacity="1" stroke="#0f172a"><title>Node 146; cost 889; selected</title></circle>
+<circle cx="91.61" cy="514.73" r="4.5" fill="rgb(52,125,208)" opacity="1" stroke="#0f172a"><title>Node 149; cost 124; selected</title></circle>
+<circle cx="529.40" cy="595.38" r="4.5" fill="rgb(102,104,163)" opacity="1" stroke="#0f172a"><title>Node 150; cost 628; selected</title></circle>
+<circle cx="528.22" cy="618.44" r="4.5" fill="rgb(102,105,164)" opacity="1" stroke="#0f172a"><title>Node 151; cost 621; selected</title></circle>
+<circle cx="158.60" cy="501.50" r="4.5" fill="rgb(84,112,179)" opacity="1" stroke="#0f172a"><title>Node 152; cost 446; selected</title></circle>
+<circle cx="645.16" cy="662.22" r="4.5" fill="rgb(106,103,160)" opacity="1" stroke="#0f172a"><title>Node 153; cost 665; selected</title></circle>
+<circle cx="246.60" cy="427.17" r="4.5" fill="rgb(76,115,187)" opacity="1" stroke="#0f172a"><title>Node 157; cost 360; selected</title></circle>
+<circle cx="458.29" cy="651.94" r="4.5" fill="rgb(96,107,168)" opacity="1" stroke="#0f172a"><title>Node 158; cost 567; selected</title></circle>
+<circle cx="648.10" cy="607.87" r="4.5" fill="rgb(69,118,193)" opacity="1" stroke="#0f172a"><title>Node 159; cost 291; selected</title></circle>
+<circle cx="180.05" cy="539.26" r="4.5" fill="rgb(131,93,138)" opacity="1" stroke="#0f172a"><title>Node 160; cost 909; selected</title></circle>
+<circle cx="551.14" cy="395.73" r="4.5" fill="rgb(145,87,125)" opacity="1" stroke="#0f172a"><title>Node 163; cost 1049; selected</title></circle>
+<circle cx="516.91" cy="480.20" r="4.5" fill="rgb(43,128,216)" opacity="1" stroke="#0f172a"><title>Node 164; cost 37; selected</title></circle>
+<circle cx="85.44" cy="549.25" r="4.5" fill="rgb(74,116,188)" opacity="1" stroke="#0f172a"><title>Node 168; cost 346; selected</title></circle>
+<circle cx="580.67" cy="499.01" r="4.5" fill="rgb(139,90,130)" opacity="1" stroke="#0f172a"><title>Node 169; cost 998; selected</title></circle>
+<circle cx="650.74" cy="623.88" r="4.5" fill="rgb(127,95,141)" opacity="1" stroke="#0f172a"><title>Node 170; cost 872; selected</title></circle>
+<circle cx="210.75" cy="657.08" r="4.5" fill="rgb(89,110,175)" opacity="1" stroke="#0f172a"><title>Node 171; cost 497; selected</title></circle>
+<circle cx="500.02" cy="559.39" r="4.5" fill="rgb(62,121,200)" opacity="1" stroke="#0f172a"><title>Node 174; cost 221; selected</title></circle>
+<circle cx="497.81" cy="587.01" r="4.5" fill="rgb(73,116,190)" opacity="1" stroke="#0f172a"><title>Node 176; cost 332; selected</title></circle>
+<circle cx="398.65" cy="551.75" r="4.5" fill="rgb(45,127,215)" opacity="1" stroke="#0f172a"><title>Node 177; cost 53; selected</title></circle>
+<circle cx="569.21" cy="433.93" r="4.5" fill="rgb(74,116,188)" opacity="1" stroke="#0f172a"><title>Node 178; cost 346; selected</title></circle>
+<circle cx="382.63" cy="553.22" r="4.5" fill="rgb(112,101,154)" opacity="1" stroke="#0f172a"><title>Node 179; cost 723; selected</title></circle>
+<circle cx="268.34" cy="555.71" r="4.5" fill="rgb(40,130,220)" opacity="1" stroke="#0f172a"><title>Node 180; cost 0; selected</title></circle>
+<circle cx="393.06" cy="663.11" r="4.5" fill="rgb(112,100,154)" opacity="1" stroke="#0f172a"><title>Node 181; cost 724; selected</title></circle>
+<circle cx="518.82" cy="664.13" r="4.5" fill="rgb(109,102,157)" opacity="1" stroke="#0f172a"><title>Node 182; cost 698; selected</title></circle>
+<circle cx="321.37" cy="562.91" r="4.5" fill="rgb(107,102,159)" opacity="1" stroke="#0f172a"><title>Node 185; cost 675; selected</title></circle>
+<circle cx="486.79" cy="428.93" r="4.5" fill="rgb(118,98,149)" opacity="1" stroke="#0f172a"><title>Node 186; cost 783; selected</title></circle>
+<circle cx="228.67" cy="613.60" r="4.5" fill="rgb(46,127,213)" opacity="1" stroke="#0f172a"><title>Node 187; cost 67; selected</title></circle>
+<circle cx="246.74" cy="632.55" r="4.5" fill="rgb(131,93,137)" opacity="1" stroke="#0f172a"><title>Node 189; cost 910; selected</title></circle>
+<circle cx="441.84" cy="673.24" r="4.5" fill="rgb(106,103,159)" opacity="1" stroke="#0f172a"><title>Node 192; cost 667; selected</title></circle>
+<circle cx="648.54" cy="667.22" r="4.5" fill="rgb(125,95,143)" opacity="1" stroke="#0f172a"><title>Node 193; cost 854; selected</title></circle>
+<g font-family="sans-serif" font-size="13" fill="#334155"><text x="705" y="125">Node cost</text>
+<rect x="710" y="150" width="22" height="3.1" fill="rgb(40,130,220)"/>
+<rect x="710" y="153" width="22" height="3.1" fill="rgb(42,129,218)"/>
+<rect x="710" y="156" width="22" height="3.1" fill="rgb(44,128,216)"/>
+<rect x="710" y="159" width="22" height="3.1" fill="rgb(46,127,214)"/>
+<rect x="710" y="162" width="22" height="3.1" fill="rgb(48,126,212)"/>
+<rect x="710" y="165" width="22" height="3.1" fill="rgb(50,125,210)"/>
+<rect x="710" y="168" width="22" height="3.1" fill="rgb(52,125,209)"/>
+<rect x="710" y="171" width="22" height="3.1" fill="rgb(54,124,207)"/>
+<rect x="710" y="174" width="22" height="3.1" fill="rgb(56,123,205)"/>
+<rect x="710" y="177" width="22" height="3.1" fill="rgb(58,122,203)"/>
+<rect x="710" y="180" width="22" height="3.1" fill="rgb(60,121,201)"/>
+<rect x="710" y="183" width="22" height="3.1" fill="rgb(62,121,200)"/>
+<rect x="710" y="186" width="22" height="3.1" fill="rgb(64,120,198)"/>
+<rect x="710" y="189" width="22" height="3.1" fill="rgb(66,119,196)"/>
+<rect x="710" y="192" width="22" height="3.1" fill="rgb(68,118,194)"/>
+<rect x="710" y="195" width="22" height="3.1" fill="rgb(70,117,192)"/>
+<rect x="710" y="198" width="22" height="3.1" fill="rgb(72,117,190)"/>
+<rect x="710" y="201" width="22" height="3.1" fill="rgb(74,116,189)"/>
+<rect x="710" y="204" width="22" height="3.1" fill="rgb(76,115,187)"/>
+<rect x="710" y="207" width="22" height="3.1" fill="rgb(78,114,185)"/>
+<rect x="710" y="210" width="22" height="3.1" fill="rgb(80,113,183)"/>
+<rect x="710" y="213" width="22" height="3.1" fill="rgb(82,113,181)"/>
+<rect x="710" y="216" width="22" height="3.1" fill="rgb(84,112,180)"/>
+<rect x="710" y="219" width="22" height="3.1" fill="rgb(86,111,178)"/>
+<rect x="710" y="222" width="22" height="3.1" fill="rgb(88,110,176)"/>
+<rect x="710" y="225" width="22" height="3.1" fill="rgb(90,109,174)"/>
+<rect x="710" y="228" width="22" height="3.1" fill="rgb(92,108,172)"/>
+<rect x="710" y="231" width="22" height="3.1" fill="rgb(94,108,170)"/>
+<rect x="710" y="234" width="22" height="3.1" fill="rgb(96,107,169)"/>
+<rect x="710" y="237" width="22" height="3.1" fill="rgb(98,106,167)"/>
+<rect x="710" y="240" width="22" height="3.1" fill="rgb(100,105,165)"/>
+<rect x="710" y="243" width="22" height="3.1" fill="rgb(102,104,163)"/>
+<rect x="710" y="246" width="22" height="3.1" fill="rgb(104,104,161)"/>
+<rect x="710" y="249" width="22" height="3.1" fill="rgb(106,103,160)"/>
+<rect x="710" y="252" width="22" height="3.1" fill="rgb(108,102,158)"/>
+<rect x="710" y="255" width="22" height="3.1" fill="rgb(110,101,156)"/>
+<rect x="710" y="258" width="22" height="3.1" fill="rgb(112,100,154)"/>
+<rect x="710" y="261" width="22" height="3.1" fill="rgb(114,100,152)"/>
+<rect x="710" y="264" width="22" height="3.1" fill="rgb(116,99,150)"/>
+<rect x="710" y="267" width="22" height="3.1" fill="rgb(118,98,149)"/>
+<rect x="710" y="270" width="22" height="3.1" fill="rgb(120,97,147)"/>
+<rect x="710" y="273" width="22" height="3.1" fill="rgb(122,96,145)"/>
+<rect x="710" y="276" width="22" height="3.1" fill="rgb(124,96,143)"/>
+<rect x="710" y="279" width="22" height="3.1" fill="rgb(126,95,141)"/>
+<rect x="710" y="282" width="22" height="3.1" fill="rgb(128,94,140)"/>
+<rect x="710" y="285" width="22" height="3.1" fill="rgb(130,93,138)"/>
+<rect x="710" y="288" width="22" height="3.1" fill="rgb(132,92,136)"/>
+<rect x="710" y="291" width="22" height="3.1" fill="rgb(134,92,134)"/>
+<rect x="710" y="294" width="22" height="3.1" fill="rgb(136,91,132)"/>
+<rect x="710" y="297" width="22" height="3.1" fill="rgb(138,90,130)"/>
+<rect x="710" y="300" width="22" height="3.1" fill="rgb(141,89,129)"/>
+<rect x="710" y="303" width="22" height="3.1" fill="rgb(143,88,127)"/>
+<rect x="710" y="306" width="22" height="3.1" fill="rgb(145,87,125)"/>
+<rect x="710" y="309" width="22" height="3.1" fill="rgb(147,87,123)"/>
+<rect x="710" y="312" width="22" height="3.1" fill="rgb(149,86,121)"/>
+<rect x="710" y="315" width="22" height="3.1" fill="rgb(151,85,120)"/>
+<rect x="710" y="318" width="22" height="3.1" fill="rgb(153,84,118)"/>
+<rect x="710" y="321" width="22" height="3.1" fill="rgb(155,83,116)"/>
+<rect x="710" y="324" width="22" height="3.1" fill="rgb(157,83,114)"/>
+<rect x="710" y="327" width="22" height="3.1" fill="rgb(159,82,112)"/>
+<rect x="710" y="330" width="22" height="3.1" fill="rgb(161,81,110)"/>
+<rect x="710" y="333" width="22" height="3.1" fill="rgb(163,80,109)"/>
+<rect x="710" y="336" width="22" height="3.1" fill="rgb(165,79,107)"/>
+<rect x="710" y="339" width="22" height="3.1" fill="rgb(167,79,105)"/>
+<rect x="710" y="342" width="22" height="3.1" fill="rgb(169,78,103)"/>
+<rect x="710" y="345" width="22" height="3.1" fill="rgb(171,77,101)"/>
+<rect x="710" y="348" width="22" height="3.1" fill="rgb(173,76,100)"/>
+<rect x="710" y="351" width="22" height="3.1" fill="rgb(175,75,98)"/>
+<rect x="710" y="354" width="22" height="3.1" fill="rgb(177,75,96)"/>
+<rect x="710" y="357" width="22" height="3.1" fill="rgb(179,74,94)"/>
+<rect x="710" y="360" width="22" height="3.1" fill="rgb(181,73,92)"/>
+<rect x="710" y="363" width="22" height="3.1" fill="rgb(183,72,90)"/>
+<rect x="710" y="366" width="22" height="3.1" fill="rgb(185,71,89)"/>
+<rect x="710" y="369" width="22" height="3.1" fill="rgb(187,71,87)"/>
+<rect x="710" y="372" width="22" height="3.1" fill="rgb(189,70,85)"/>
+<rect x="710" y="375" width="22" height="3.1" fill="rgb(191,69,83)"/>
+<rect x="710" y="378" width="22" height="3.1" fill="rgb(193,68,81)"/>
+<rect x="710" y="381" width="22" height="3.1" fill="rgb(195,67,80)"/>
+<rect x="710" y="384" width="22" height="3.1" fill="rgb(197,66,78)"/>
+<rect x="710" y="387" width="22" height="3.1" fill="rgb(199,66,76)"/>
+<rect x="710" y="390" width="22" height="3.1" fill="rgb(201,65,74)"/>
+<rect x="710" y="393" width="22" height="3.1" fill="rgb(203,64,72)"/>
+<rect x="710" y="396" width="22" height="3.1" fill="rgb(205,63,70)"/>
+<rect x="710" y="399" width="22" height="3.1" fill="rgb(207,62,69)"/>
+<rect x="710" y="402" width="22" height="3.1" fill="rgb(209,62,67)"/>
+<rect x="710" y="405" width="22" height="3.1" fill="rgb(211,61,65)"/>
+<rect x="710" y="408" width="22" height="3.1" fill="rgb(213,60,63)"/>
+<rect x="710" y="411" width="22" height="3.1" fill="rgb(215,59,61)"/>
+<rect x="710" y="414" width="22" height="3.1" fill="rgb(217,58,60)"/>
+<rect x="710" y="417" width="22" height="3.1" fill="rgb(219,58,58)"/>
+<rect x="710" y="420" width="22" height="3.1" fill="rgb(221,57,56)"/>
+<rect x="710" y="423" width="22" height="3.1" fill="rgb(223,56,54)"/>
+<rect x="710" y="426" width="22" height="3.1" fill="rgb(225,55,52)"/>
+<rect x="710" y="429" width="22" height="3.1" fill="rgb(227,54,50)"/>
+<rect x="710" y="432" width="22" height="3.1" fill="rgb(229,54,49)"/>
+<rect x="710" y="435" width="22" height="3.1" fill="rgb(231,53,47)"/>
+<rect x="710" y="438" width="22" height="3.1" fill="rgb(233,52,45)"/>
+<rect x="710" y="441" width="22" height="3.1" fill="rgb(235,51,43)"/>
+<rect x="710" y="444" width="22" height="3.1" fill="rgb(237,50,41)"/>
+<rect x="710" y="447" width="22" height="3.1" fill="rgb(240,50,40)"/>
+<text x="740" y="160">0</text><text x="740" y="450">1997</text><text x="700" y="500">Outlined: selected</text><text x="700" y="525">Faded: unselected</text><text x="60" y="758">Closed tour; equal scaling on both axes. Node indices are zero-based.</text></g></svg>

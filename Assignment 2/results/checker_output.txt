@@ -1,0 +1,9 @@
+PASS TSPA nn_2regret nodes=100 distance=21279 node_cost=89671 total=110950
+PASS TSPA cycle_2regret nodes=100 distance=21429 node_cost=91377 total=112806
+PASS TSPA nn_weighted_2regret nodes=100 distance=20127 node_cost=52292 total=72419
+PASS TSPA cycle_weighted_2regret nodes=100 distance=20248 node_cost=51763 total=72011
+PASS TSPB nn_2regret nodes=100 distance=22801 node_cost=45960 total=68761
+PASS TSPB cycle_2regret nodes=100 distance=21400 node_cost=46750 total=68150
+PASS TSPB nn_weighted_2regret nodes=100 distance=18835 node_cost=31650 total=50485
+PASS TSPB cycle_weighted_2regret nodes=100 distance=16365 node_cost=36366 total=52731
+All 8 best solutions independently verified.

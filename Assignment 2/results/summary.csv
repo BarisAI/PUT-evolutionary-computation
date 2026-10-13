@@ -1,0 +1,9 @@
+instance,method,runs,min,max,average
+TSPA,nn_2regret,200,110950,135771,121360.290
+TSPA,cycle_2regret,200,112806,128089,120378.765
+TSPA,nn_weighted_2regret,200,72419,78504,75549.360
+TSPA,cycle_weighted_2regret,200,72011,75532,73353.485
+TSPB,nn_2regret,200,68761,79756,73649.840
+TSPB,cycle_2regret,200,68150,77274,72484.840
+TSPB,nn_weighted_2regret,200,50485,61406,55698.940
+TSPB,cycle_weighted_2regret,200,52731,63370,57863.290

@@ -1,0 +1,9 @@
+instance,method,selected_nodes,distance_J2,node_cost_I2,objective_K2,status
+TSPA,nn_2regret,100,21279,89671,110950,PASS
+TSPA,cycle_2regret,100,21429,91377,112806,PASS
+TSPA,nn_weighted_2regret,100,20127,52292,72419,PASS
+TSPA,cycle_weighted_2regret,100,20248,51763,72011,PASS
+TSPB,nn_2regret,100,22801,45960,68761,PASS
+TSPB,cycle_2regret,100,21400,46750,68150,PASS
+TSPB,nn_weighted_2regret,100,18835,31650,50485,PASS
+TSPB,cycle_weighted_2regret,100,16365,36366,52731,PASS
