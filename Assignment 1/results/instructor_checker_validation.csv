@@ -1,0 +1,9 @@
+instance,method,selected_nodes,distance_J2,node_cost_I2,objective_K2,status
+TSPA,random,100,137315,102893,240208,PASS
+TSPA,nearest_end,100,31319,53043,84362,PASS
+TSPA,nearest_all_positions,100,21816,50512,72328,PASS
+TSPA,greedy_cycle,100,21570,51020,72590,PASS
+TSPB,random,100,138109,46953,185062,PASS
+TSPB,nearest_end,100,24632,31375,56007,PASS
+TSPB,nearest_all_positions,100,20068,32847,52915,PASS
+TSPB,greedy_cycle,100,19634,36021,55655,PASS
