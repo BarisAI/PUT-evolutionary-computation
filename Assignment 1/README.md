@@ -49,7 +49,8 @@ CMake was unavailable in the execution environment.
 | `results/summary.csv` | Minimum, maximum and average for all instance/method pairs |
 | `results/runs.csv` | All 1,600 measured objectives and starting nodes |
 | `results/best_solutions.txt` | Eight best tours with claimed objectives |
-| `results/checker_output.txt` | Independent checker results |
+| `results/checker_output.txt` | Independent C++ checker results |
+| `results/instructor_checker_validation.csv` | Eight best tours checked with the instructor's Excel calculation rules |
 | `results/plots/*.svg` | Eight best-tour visualizations with node-cost colors |
 
 The runner accepts `DATA_DIRECTORY OUTPUT_DIRECTORY SEED` (default: `data results
@@ -66,5 +67,11 @@ as a cycle. Greedy cycle includes the closing edge during construction. This
 distinction and all formulas are documented in the report. The slide says
 "three methods" but lists four; all four listed methods are implemented.
 
-All eight solutions passed the included independent checker. No instructor's
-checker or checker URL was supplied, so external checker validation is not claimed.
+All eight solutions passed the included independent C++ checker and were also
+validated against the instructor-provided `Solution checker.xlsx` calculation
+formulas (100-node lists inserted into F3:F102, with I2/J2/K2 recalculated).
+The Excel workbook's shared-formula groups were expanded in memory to preserve
+its formulas during programmatic import; the original workbook was not modified.
+See [REPORT.md](REPORT.md#5-solution-checking-and-tests) and
+[results/instructor_checker_validation.csv](results/instructor_checker_validation.csv)
+for the detailed method and eight independently recorded Excel-rule outcomes.
