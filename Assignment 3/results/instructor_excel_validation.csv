@@ -1,0 +1,17 @@
+instance,method,selected_nodes,excel_I2_node_cost,excel_J2_distance,excel_K2_objective,status
+TSPA,steepest_nodes_random,100,51389,30154,81543,PASS
+TSPA,steepest_edges_random,100,52684,21079,73763,PASS
+TSPA,steepest_nodes_greedy,100,50832,21123,71955,PASS
+TSPA,steepest_edges_greedy,100,50832,21123,71955,PASS
+TSPA,greedy_nodes_random,100,51188,30634,81822,PASS
+TSPA,greedy_edges_random,100,51226,22647,73873,PASS
+TSPA,greedy_nodes_greedy,100,50832,21123,71955,PASS
+TSPA,greedy_edges_greedy,100,50832,21123,71955,PASS
+TSPB,steepest_nodes_random,100,29470,30049,59519,PASS
+TSPB,steepest_edges_random,100,30466,20193,50659,PASS
+TSPB,steepest_nodes_greedy,100,31520,18458,49978,PASS
+TSPB,steepest_edges_greedy,100,30538,18808,49346,PASS
+TSPB,greedy_nodes_random,100,31228,26065,57293,PASS
+TSPB,greedy_edges_random,100,32230,18306,50536,PASS
+TSPB,greedy_nodes_greedy,100,31520,18458,49978,PASS
+TSPB,greedy_edges_greedy,100,30995,18586,49581,PASS

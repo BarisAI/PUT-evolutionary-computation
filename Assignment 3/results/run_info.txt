@@ -1,0 +1,7 @@
+Assignment 3 local search, TSPA and TSPB (200 nodes each).
+Each method: 200 runs per instance; total 3,200 new local-search runs.
+Random start seed: 42; move-order RNG per run: 1000003 + dataset*100003 + method*1009 + run.
+Greedy uses online Fisher-Yates lazy random order over the mixed intra/inter neighborhood. Deltas are calculated only for moves visited; stop on first improving move.
+Steepest visits both move classes and takes the most negative delta.
+Time measurement: steady_clock; end-to-end time includes starting-solution generation and local search.
+Constructed starting heuristic TSPA: weighted greedy cycle. TSPB: weighted all-position nearest neighbor.

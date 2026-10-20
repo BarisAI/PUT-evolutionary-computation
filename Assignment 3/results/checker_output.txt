@@ -1,0 +1,17 @@
+PASS TSPA steepest_nodes_random nodes=100 distance=30154 node_cost=51389 total=81543
+PASS TSPA steepest_edges_random nodes=100 distance=21079 node_cost=52684 total=73763
+PASS TSPA steepest_nodes_greedy nodes=100 distance=21123 node_cost=50832 total=71955
+PASS TSPA steepest_edges_greedy nodes=100 distance=21123 node_cost=50832 total=71955
+PASS TSPA greedy_nodes_random nodes=100 distance=30634 node_cost=51188 total=81822
+PASS TSPA greedy_edges_random nodes=100 distance=22647 node_cost=51226 total=73873
+PASS TSPA greedy_nodes_greedy nodes=100 distance=21123 node_cost=50832 total=71955
+PASS TSPA greedy_edges_greedy nodes=100 distance=21123 node_cost=50832 total=71955
+PASS TSPB steepest_nodes_random nodes=100 distance=30049 node_cost=29470 total=59519
+PASS TSPB steepest_edges_random nodes=100 distance=20193 node_cost=30466 total=50659
+PASS TSPB steepest_nodes_greedy nodes=100 distance=18458 node_cost=31520 total=49978
+PASS TSPB steepest_edges_greedy nodes=100 distance=18808 node_cost=30538 total=49346
+PASS TSPB greedy_nodes_random nodes=100 distance=26065 node_cost=31228 total=57293
+PASS TSPB greedy_edges_random nodes=100 distance=18306 node_cost=32230 total=50536
+PASS TSPB greedy_nodes_greedy nodes=100 distance=18458 node_cost=31520 total=49978
+PASS TSPB greedy_edges_greedy nodes=100 distance=18586 node_cost=30995 total=49581
+All 16 best solutions independently verified.

@@ -1,0 +1,17 @@
+assignment,method,TSPA_mean_total_ms,TSPB_mean_total_ms
+1,Random solution,0.002991,0.001449
+1,Nearest neighbor - end,0.075666,0.057527
+1,Nearest neighbor - all positions,1.251328,1.053657
+1,Greedy cycle,2.632164,2.548263
+2,Nearest neighbor - 2-regret,1.573009,1.539144
+2,Greedy cycle - 2-regret,2.437962,2.258769
+2,NN - weighted 2-regret,1.574964,1.525053
+2,Cycle - weighted 2-regret,2.238269,2.093101
+3,Steepest / nodes / random,26.388848,24.758056
+3,Steepest / edges / random,10.207707,9.393698
+3,Steepest / nodes / greedy start,3.013180,3.502270
+3,Steepest / edges / greedy start,2.612314,2.742372
+3,Greedy / nodes / random,4.105032,3.562123
+3,Greedy / edges / random,2.412856,2.085959
+3,Greedy / nodes / greedy start,3.308490,2.999009
+3,Greedy / edges / greedy start,2.844541,2.758084
