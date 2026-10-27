@@ -1,0 +1,9 @@
+PASS TSPA full_steepest selected=100 distance=21079 cost=52684 total=73763
+PASS TSPA candidate_k5 selected=100 distance=24567 cost=56355 total=80922
+PASS TSPA candidate_k10 selected=100 distance=22553 cost=53957 total=76510
+PASS TSPA candidate_k20 selected=100 distance=21980 cost=51685 total=73665
+PASS TSPB full_steepest selected=100 distance=20193 cost=30466 total=50659
+PASS TSPB candidate_k5 selected=100 distance=20301 cost=30877 total=51178
+PASS TSPB candidate_k10 selected=100 distance=19904 cost=30750 total=50654
+PASS TSPB candidate_k20 selected=100 distance=19588 cost=30808 total=50396
+All 8 best tours independently checked.

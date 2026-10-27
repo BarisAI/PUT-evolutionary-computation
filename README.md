@@ -25,3 +25,11 @@ The first assignment implements random solutions, nearest neighbor at the end, n
 - [Steepest and basic randomized first-improvement Greedy implementation](Assignment%203/src)
 
 This assignment adds 8 local-search combinations using node swaps or 2-opt, selected/unselected replacement and random or constructive starting tours. Previous assignments are unchanged.
+
+## Assignment 4 - Candidate Moves in Local Search
+
+- [Detailed report with candidate enumeration pseudocode, validation and visualizations](Assignment%204/REPORT.md)
+- [Build and reproduction instructions](Assignment%204/README.md)
+- [Candidate-edge Steepest source and tests](Assignment%204/src)
+
+Steepest 2-opt + inter-route node replacement with random starting tours. A full-neighborhood baseline is compared against candidate-only neighborhoods with K=5, K=10 and K=20, using the same 200 starts on TSPA and TSPB. Previous assignments are preserved.

@@ -1,0 +1,9 @@
+instance,method,selected_nodes,distance_J2,node_cost_I2,total_K2,status
+TSPA,full_steepest,100,21079,52684,73763,PASS
+TSPA,candidate_k5,100,24567,56355,80922,PASS
+TSPA,candidate_k10,100,22553,53957,76510,PASS
+TSPA,candidate_k20,100,21980,51685,73665,PASS
+TSPB,full_steepest,100,20193,30466,50659,PASS
+TSPB,candidate_k5,100,20301,30877,51178,PASS
+TSPB,candidate_k10,100,19904,30750,50654,PASS
+TSPB,candidate_k20,100,19588,30808,50396,PASS
