@@ -1,0 +1,5 @@
+instance,method,selected_nodes,rounded_distance_J2,node_cost_I2,objective_K2,claimed,status
+TSPA,full_steepest,100,21079,52684,73763,73763,PASS
+TSPA,lm_steepest,100,22478,51358,73836,73836,PASS
+TSPB,full_steepest,100,20193,30466,50659,50659,PASS
+TSPB,lm_steepest,100,20193,30466,50659,50659,PASS

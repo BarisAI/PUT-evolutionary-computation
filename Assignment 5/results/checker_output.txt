@@ -1,0 +1,5 @@
+PASS TSPA full_steepest selected=100 distance=21079 cost=52684 total=73763
+PASS TSPA lm_steepest selected=100 distance=22478 cost=51358 total=73836
+PASS TSPB full_steepest selected=100 distance=20193 cost=30466 total=50659
+PASS TSPB lm_steepest selected=100 distance=20193 cost=30466 total=50659
+All 4 best tours independently checked.

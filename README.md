@@ -33,3 +33,11 @@ This assignment adds 8 local-search combinations using node swaps or 2-opt, sele
 - [Candidate-edge Steepest source and tests](Assignment%204/src)
 
 Steepest 2-opt + inter-route node replacement with random starting tours. A full-neighborhood baseline is compared against candidate-only neighborhoods with K=5, K=10 and K=20, using the same 200 starts on TSPA and TSPB. Previous assignments are preserved.
+
+## Assignment 5 - Reusing Move Evaluations in Local Search
+
+- [Detailed report, pseudocode, experiments and four best-tour graphs](Assignment%205/REPORT.md)
+- [Reproduction instructions](Assignment%205/README.md)
+- [C++17 LM implementation and unit tests](Assignment%205/src)
+
+Assignment 5 reuses the unrestricted 2-opt + node-replacement steepest neighborhood from Assignment 3. A saved improving-move queue retains previous deltas and handles missing cut edges, relative edge reversals and applicable moves. Both methods are compared on the same 200 random starting tours for TSPA and TSPB. Assignment 1-4 folders remain unchanged.

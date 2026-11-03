@@ -1,0 +1,7 @@
+Random initial solutions generated with the Assignment 1 Fisher-Yates method; std::mt19937 seed 42, TSPA then TSPB.
+Both full and LM use exactly the same 200 starts per instance and the same 2-opt plus replacement neighborhood.
+LM saves negative deltas using unordered removed-edge IDs + relative reconnection and old/new/neighbor IDs for replacements.
+Two-edge moves with one inverted relative edge are retained as deferred, removed-edge-missing entries are discarded.
+After a move, only newly possible deltas are evaluated (new tour edges, affected node neighbor pairs, new outside node).
+On exhaustion, a full move evaluation confirms a complete local optimum. Candidate moves are NOT used.
+Times: std::chrono::steady_clock local-search-only milliseconds; exclude common random start generation and file output.
