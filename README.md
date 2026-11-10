@@ -41,3 +41,11 @@ Steepest 2-opt + inter-route node replacement with random starting tours. A full
 - [C++17 LM implementation and unit tests](Assignment%205/src)
 
 Assignment 5 reuses the unrestricted 2-opt + node-replacement steepest neighborhood from Assignment 3. A saved improving-move queue retains previous deltas and handles missing cut edges, relative edge reversals and applicable moves. Both methods are compared on the same 200 random starting tours for TSPA and TSPB. Assignment 1-4 folders remain unchanged.
+
+## Assignment 6 - Multiple Start Local Search (MSLS) and Iterated Local Search (ILS)
+
+- [Detailed report with MSLS/ILS pseudocode, perturbation, results, and best tours](Assignment%206/REPORT.md)
+- [Build and reproduction instructions](Assignment%206/README.md)
+- [C++17 implementations and tests](Assignment%206/src)
+
+MSLS runs 400 independent random-start full Steepest local searches per trial; ILS uses random-start local search with four selected/unselected exchanges, a double-bridge-style tour perturbation, and time budget equal to the observed average MSLS runtime. Both methods were tested 20 times for each of TSPA and TSPB. Earlier assignment folders are unchanged.

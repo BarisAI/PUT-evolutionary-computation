@@ -1,0 +1,7 @@
+Assignment 6; C++17; random_solution from Assignment 1, exact unrestricted Steepest 2-opt + inter-route replacement from Assignment 3.
+MSLS: 400 independently randomized starts per run; retain best local optimum.
+ILS: initial random start, Steepest, then 4 distinct selected/outside replacements and double bridge A|B|C|D -> A|C|B|D; after kick, full Steepest.
+ILS acceptance: if candidate <= current, accept; else probability 0.12. After 80 non-best-improving kicks, restart current from global best.
+The ILS stop time is the observed mean wall-clock duration of 20 MSLS runs ON THAT INSTANCE. Last LS may exceed budget.
+The MSLS and ILS algorithms are both tested 20 times per instance.
+MSLS seeds 2026600 + instanceIndex*100000 + trial*97 + 11; ILS seeds 2026800 + instanceIndex*100000 + trial*97 + 29.

@@ -1,0 +1,5 @@
+PASS TSPA MSLS nodes=100 travel=21638 vertex_cost=51335 objective=72973 full_local_optimum=PASS
+PASS TSPA ILS nodes=100 travel=21320 vertex_cost=50183 objective=71503 full_local_optimum=PASS
+PASS TSPB MSLS nodes=100 travel=19217 vertex_cost=30416 objective=49633 full_local_optimum=PASS
+PASS TSPB ILS nodes=100 travel=18783 vertex_cost=29366 objective=48149 full_local_optimum=PASS
+PASS: all 4 independent tours checked.
