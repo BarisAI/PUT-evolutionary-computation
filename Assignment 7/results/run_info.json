@@ -1,0 +1,17 @@
+{
+  "system": "Linux",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "python": "3.13.5",
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "cpu_count_reported": 5,
+  "workers": 4,
+  "experiment_schedule": "4-worker randomized mixed sequence, seed 2026707; use --workers 1 for sequential reproducibility",
+  "machine_claim": "Local Linux execution, not a claim of student-operated physical laptop tests",
+  "task_budget_source": "Assignment 6/results/budgets.csv (measured MSLS mean wall-clock runtime)",
+  "budgets_ms": {
+    "TSPA": 3715.396616,
+    "TSPB": 3858.478861
+  },
+  "number_trials": 240,
+  "note": "Elapsed times and iteration counts depend on CPU load. Results are real C++ executions."
+}

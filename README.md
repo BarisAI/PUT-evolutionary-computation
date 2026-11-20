@@ -49,3 +49,12 @@ Assignment 5 reuses the unrestricted 2-opt + node-replacement steepest neighborh
 - [C++17 implementations and tests](Assignment%206/src)
 
 MSLS runs 400 independent random-start full Steepest local searches per trial; ILS uses random-start local search with four selected/unselected exchanges, a double-bridge-style tour perturbation, and time budget equal to the observed average MSLS runtime. Both methods were tested 20 times for each of TSPA and TSPB. Earlier assignment folders are unchanged.
+
+## Assignment 7 - Large Neighborhood Search (LNS)
+
+- [Detailed report, six LNS variants, pseudocode, results and fourteen charts](Assignment%207/REPORT.md)
+- [Build and laptop reproduction instructions](Assignment%207/README.md)
+- [Real command-line test log and independent audits](Assignment%207/TESTING.md)
+- [C++17 source and unit tests](Assignment%207/src)
+
+We use 30% destruction via random nodes, one circular subpath or 3-5 separated subpaths. Weighted 2-regret repairs the partial solution (cycle form for TSPA; random cycle break and open-path form for TSPB). Every method initially applies full Steepest Local Search, and variants differ by adding/not adding full local search after repair. All six variants were tested 20 times on both original instances, using the previous assignment's measured mean MSLS runtime. Assignments 1-6 are unchanged.

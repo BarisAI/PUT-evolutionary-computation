@@ -1,0 +1,4 @@
+PASS: 240/240 independently re-evaluated with rounded closed edges and selected node costs.
+PASS: 12/12 groups have 20 real trials, summary statistics and loop counts verified.
+PASS: 120/120 paired trials have the same initial solution objective and seed.
+PASS: 12/12 saved best tours match run-level winners and all measured time budgets.

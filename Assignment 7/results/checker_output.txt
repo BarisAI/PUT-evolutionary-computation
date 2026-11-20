@@ -1,0 +1,13 @@
+PASS TSPA multiple_subpaths with_ls travel=20691 nodes=51005 total=71696
+PASS TSPA multiple_subpaths without_ls travel=20185 nodes=51519 total=71704
+PASS TSPA one_subpath with_ls travel=20775 nodes=51118 total=71893
+PASS TSPA one_subpath without_ls travel=20069 nodes=51802 total=71871
+PASS TSPA random_nodes with_ls travel=20627 nodes=51070 total=71697
+PASS TSPA random_nodes without_ls travel=21371 nodes=50363 total=71734
+PASS TSPB multiple_subpaths with_ls travel=18776 nodes=29429 total=48205
+PASS TSPB multiple_subpaths without_ls travel=18505 nodes=29751 total=48256
+PASS TSPB one_subpath with_ls travel=18815 nodes=29423 total=48238
+PASS TSPB one_subpath without_ls travel=18483 nodes=30154 total=48637
+PASS TSPB random_nodes with_ls travel=18603 nodes=29591 total=48194
+PASS TSPB random_nodes without_ls travel=18678 nodes=29549 total=48227
+PASS all 12 best tours.

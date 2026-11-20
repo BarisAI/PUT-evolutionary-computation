@@ -1,0 +1,25 @@
+@page { size: A4; margin: 17mm 18mm 17mm 18mm; @bottom-right { content: counter(page); font-size: 9pt; color: #67707c; } }
+html { font-family: 'DejaVu Sans', Arial, sans-serif; font-size: 9.3pt; line-height: 1.38; color: #182436; }
+body { margin: 0; }
+h1 { font-size: 19pt; line-height: 1.17; color: #1e3a60; padding-bottom: 7px; border-bottom: 2px solid #255889; margin: 0 0 13px; }
+h2 { font-size: 12.4pt; line-height: 1.2; color: #1f4c7a; margin: 14px 0 7px; padding: 0 0 3px; border-bottom: .5px solid #d6e0eb; break-after: avoid; }
+h3 { font-size: 10.3pt; color: #254563; margin: 15px 0 6px; break-after: avoid; }
+p { margin: 5px 0 9px; orphans: 3; widows: 3; }
+strong { color: #192d49; }
+ul,ol { margin-top: 4px; margin-bottom: 8px; padding-left: 21px; }
+li { padding-bottom: 3px; }
+pre { white-space: pre-wrap; word-wrap: break-word; overflow-wrap: anywhere; font-family:'DejaVu Sans Mono', monospace; font-size: 8pt; line-height: 1.23; color: #1b2636; background: #f4f6f9; border-left: 2px solid #93abc4; padding: 8px 10px; margin: 7px 0 11px; break-inside: avoid; }
+code { font-family:'DejaVu Sans Mono', monospace; font-size: .9em; }
+pre code { font-size: 1em; }
+table { border-collapse: collapse; width: 100%; font-size: 8pt; line-height: 1.27; margin: 9px 0 14px; table-layout: auto; }
+th,td { padding: 5px 6px; border-bottom: 1px solid #dbe3ec; vertical-align: top; }
+th { background: #eaf0f7; color: #1a3b5e; font-weight: 700; }
+tr:nth-child(even) td { background: #f8fafc; }
+figure { margin: 9px 0 14px; break-inside: avoid; text-align: center; }
+figure img, p > img { max-width: 100%; width: auto; max-height: 105mm; object-fit: contain; }
+figcaption { font-size: 7.5pt; color:#516375; font-style: italic; }
+h3 + p { break-after: avoid; }
+blockquote { border-left: 2px solid #2b608e; padding-left: 10px; color: #324e69; }
+a { color: #276392; text-decoration: none; }
+/* Markdown already begins with the proper H1; suppress pandoc's duplicate title block. */
+#title-block-header { display: none; }
