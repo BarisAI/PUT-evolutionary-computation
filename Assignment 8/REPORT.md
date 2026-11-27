@@ -22,12 +22,18 @@ The purpose of this assignment is to examine whether better local optima tend to
 
 ### 2.1 Random initial solution
 
-We reuse the Fisher-Yates random-tour generator from Assignment 1. A shuffled permutation of all 200 node indices is created and its first 100 entries form the initial cycle. The first node is not duplicated at the end; the closing edge is implicit. Each run starts from a new random solution, rather than from the previous local optimum.
+We reuse the Fisher-Yates random-tour generator from Assignment 1. A shuffled permutation of all 200 node indices is created and its first 100 entries form the initial cycle. The first node is not duplicated at the end; the closing edge is implicit. Each run starts from a new random solution, rather than from the previous local optimum. The implementation uses rejection sampling before taking the remainder, so the shuffle does not introduce modulo bias.
 
 ```text
 RANDOM-TOUR(n, m, rng):
     P = [0, 1, ..., n-1]
-    shuffle P using Fisher-Yates and rng
+    for i = n-1 down to 1:
+        range = i+1
+        limit = floor(2^32 / range) * range
+        repeat: draw = rng.next_uint32()
+        until draw < limit
+        j = draw mod range
+        swap P[i], P[j]
     return P[0:m]
 ```
 
@@ -205,7 +211,20 @@ r = sum((x[i]-x_mean)*(y[i]-y_mean)) /
     sqrt(sum((x[i]-x_mean)^2) * sum((y[i]-y_mean)^2))
 ```
 
-Pearson r ranges from -1 to +1. Because the objective is minimized, a negative r indicates that lower-cost solutions tend to have higher similarity. A value near zero indicates a weak linear relationship, not necessarily absence of any relationship. The implementation uses NumPy's corrcoef and returns NaN for constant input arrays; no such case occurred in this experiment.
+Pearson r ranges from -1 to +1. Because the objective is minimized, a negative r indicates that lower-cost solutions tend to have higher similarity. A value near zero indicates a weak linear relationship, not necessarily absence of any relationship. The implementation uses NumPy's corrcoef and returns NaN for constant input arrays; no such case occurred in this experiment. The equivalent mathematical procedure is shown below.
+
+```text
+PEARSON(x, y):
+    assert size(x) == size(y) and size(x) >= 3
+    mx = mean(x); my = mean(y)
+    numerator = 0; sx = 0; sy = 0
+    for i = 0 .. size(x)-1:
+        dx = x[i] - mx; dy = y[i] - my
+        numerator += dx * dy
+        sx += dx * dx; sy += dy * dy
+    if sx == 0 or sy == 0: return NaN
+    return numerator / sqrt(sx * sy)
+```
 
 ```text
 ANALYZE(instance, samples, previous_tour):

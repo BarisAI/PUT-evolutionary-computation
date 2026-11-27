@@ -33,7 +33,19 @@ On Windows, executables can be in `build/Release` and have `.exe` extensions. C+
 - `results/optima_summary.csv`: sample objective ranges and counts.
 - `results/references.txt`: exact two reference tours per instance and their provenance.
 - `results/charts/`: twelve scatterplots in SVG.
-- `REPORT.md`: methods, pseudocode, results and comments.
+- `REPORT.md`: detailed methods, complete pseudocode, formulas, results, figures and discussion; canonical report source.
+- `Assignment_8_Evolutionary_Computation_Report.pdf`: PDF version of the same report.
+- `scripts/build_pdf.py`: generates the PDF directly from `REPORT.md` and the saved SVG charts.
 - `TESTING.md`: commands and observed checks.
 
 The previous-method reference for each instance is the best ILS tour saved in `../Assignment 6/results/best_solutions.txt`. It is independent of the 1,000 sampled Greedy local optima. Every sample-best comparison excludes that sample run itself.
+
+## Rebuild the PDF report
+
+Install Pandoc (available on PATH) and the Python packages `weasyprint`, `beautifulsoup4`, `cairosvg` and `Pillow`. WeasyPrint and CairoSVG may also require their usual system libraries. Then, from the Assignment 8 directory:
+
+```sh
+python3 scripts/build_pdf.py
+```
+
+The report is rendered from the Markdown source and existing plots; this command does not rerun or modify the experiments.
