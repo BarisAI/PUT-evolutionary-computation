@@ -1,0 +1,2 @@
+Independent C++ checker against the original TSPA/TSPB CSV inputs:
+PASS: TSPA=1000 and TSPB=1000 unique-node valid tours; exact full objectives; no improving 2-opt/replacements

@@ -58,3 +58,12 @@ MSLS runs 400 independent random-start full Steepest local searches per trial; I
 - [C++17 source and unit tests](Assignment%207/src)
 
 We use 30% destruction via random nodes, one circular subpath or 3-5 separated subpaths. Weighted 2-regret repairs the partial solution (cycle form for TSPA; random cycle break and open-path form for TSPB). Every method initially applies full Steepest Local Search, and variants differ by adding/not adding full local search after repair. All six variants were tested 20 times on both original instances, using the previous assignment's measured mean MSLS runtime. Assignments 1-6 are unchanged.
+
+## Assignment 8 - Global convexity tests
+
+- [Student report, methods, coefficient table and 12 charts](Assignment%208/REPORT.md)
+- [Build and reproduction instructions](Assignment%208/README.md)
+- [Test notes](Assignment%208/TESTING.md)
+- [Greedy Local Search and independent checker](Assignment%208/src)
+
+For TSPA and TSPB we generated 1,000 random-start Greedy Local Search local optima each and measured overlap in undirected tour edges and selected nodes. We compared average overlap with all other samples, overlap with the best sampled tour (excluding itself), and overlap with the independently produced best ILS tour. All 12 Pearson coefficients and plots, complete experiment data, and unit tests are included. Previous assignments are unchanged.

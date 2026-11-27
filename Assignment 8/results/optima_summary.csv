@@ -1,0 +1,3 @@
+instance,n,distinct_tours,distinct_node_sets,minimum,mean,maximum,best_run,previous_ils_objective
+TSPA,1000,1000,1000,73734,76179.858,79808,816,71503
+TSPB,1000,1000,1000,50153,52961.384,56854,997,48149

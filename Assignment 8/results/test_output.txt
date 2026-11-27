@@ -1,0 +1,11 @@
+CTest (Release): 1/1 test passed
+Greedy run: TSPA 1000, TSPB 1000, seed 20260801 / 20260901
+Independent C++ checker: PASS on all 2,000 locally optimal tours
+Python similarity tests: 5/5 PASS
+Analysis: 12 Pearson correlations and 12 SVG scatterplots
+Mean-overlap formula cross-check: PASS
+Sanitizer unit tests: PASS (ASan/UBSan)
+Seed reproducibility: first 10 tours per instance matched in rerun
+Negative objective mutation: rejected by independent C++ checker
+PDF visual check: 8 A4 pages
+Environment: Linux container; not a physical laptop test
